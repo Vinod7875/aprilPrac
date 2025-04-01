@@ -9,7 +9,7 @@ public class FindCapitalCharCount {
 			char ch = str.charAt(i);
 			
 			if(Character.isUpperCase(ch)) {
-				count--;
+				count++;
 			}
 		}
 		System.out.println("Upper Case Character Count: " + count);
